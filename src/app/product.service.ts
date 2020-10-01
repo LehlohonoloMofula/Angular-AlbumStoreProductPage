@@ -10,7 +10,7 @@ export class ProductService {
   private _albumUrl="../assets/album.json";
   Album;
   private _productsUrl = '../assets/products.json' ; 
-  Product;
+  products : Product[];
 
   constructor(private _http: Http, private response:Response) { }
 
